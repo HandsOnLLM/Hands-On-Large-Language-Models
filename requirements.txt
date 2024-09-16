@@ -1,0 +1,43 @@
+# Data handling
+numpy == 1.26.4
+pandas == 2.2.2
+datasets == 2.20.0
+
+# Environment
+jupyterlab == 4.2.2
+ipywidgets == 8.1.3
+
+# Hard dependencies throughout the entire book
+torch == 2.3.1
+transformers == 4.41.2
+sentence-transformers == 3.0.1
+matplotlib == 3.9.0
+scikit-learn == 1.5.0
+sentencepiece == 0.2.0
+nltk == 3.8.1
+evaluate == 0.4.2
+scipy == 1.12.0  # TEMPORARY DEP BECAUSE OF https://github.com/piskvorky/gensim/issues/3525
+
+# Cloud providers
+openai == 1.34.0
+cohere == 5.5.8
+
+# Chapter-specific dependencies
+datamapplot == 0.3.0
+faiss-cpu==1.8.0
+bertopic == 0.16.3
+annoy == 1.17.3
+llama_cpp_python == 0.2.78 -C cmake.args="-DLLAMA_BLAS=ON"
+numexpr == 2.10.0
+langchain == 0.2.5
+langchain-community == 0.2.5
+langchain-openai==0.1.8
+duckduckgo-search == 6.1.6
+gensim == 4.3.2
+setfit == 1.0.3
+seqeval == 1.2.2
+trl == 0.9.4
+peft == 0.11.1
+accelerate == 0.31.0
+bitsandbytes == 0.43.1
+mteb == 1.12.39

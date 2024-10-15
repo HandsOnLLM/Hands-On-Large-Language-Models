@@ -7,7 +7,7 @@ Welcome! In this repository you will find the code for all examples throughout t
 
 <p align="center"><b><i>"The Illustrated LLM Book"</i></b></p>
 
-Through the visually educational nature of this book and with **over 250 custom made figures**, learn the practical tools and concepts you need to use Large Language Models today!
+Through the visually educational nature of this book and with **almost 300 custom made figures**, learn the practical tools and concepts you need to use Large Language Models today!
 
 <a href="https://www.amazon.com/Hands-Large-Language-Models-Understanding/dp/1098150961"><img src="images/book_cover.png" width="50%" height="50%"></a>
 
@@ -81,12 +81,17 @@ We advise to run all examples through Google Colab for the easiest setup. Google
 
 ## Additional Resources
 
-We attempted to put as much information into the book without it being overwhelming. However, even with a 400-page book there is still much to discover! If you are interested in similar illustrated/visual guides we created, these might be of interest to you:
+We attempted to put as much information into the book without it being overwhelming. However, even with a 400-page book there is still much to discover! 
+
+We continue to create more guides that compliment the book and go more in-depth into new and exciting topics:
 
 | [A Visual Guide to Mamba](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mamba-and-state)             |  [A Visual Guide to Quantization](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization) | [The Illustrated Stable Diffusion](https://jalammar.github.io/illustrated-stable-diffusion/) |
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](images/mamba.png)  |  ![](images/quant.png) |  ![](images/diffusion.png)
+**[A Visual Guide to Mixture of Experts](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts)**  |   |  
+![](images/moe.png)  |   |  
 
+For more information on these visual/illustrated guides, check out the [bonus](.bonus/) folder.
 
 ## Citation
 

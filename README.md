@@ -91,7 +91,7 @@ We continue to create more guides that compliment the book and go more in-depth 
 **[A Visual Guide to Mixture of Experts](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts)**  |   |  
 ![](images/moe.png)  |   |  
 
-For more information on these visual/illustrated guides, check out the [bonus](.bonus/) folder.
+For more information on these visual/illustrated guides, check out the [bonus](bonus/) folder.
 
 ## Citation
 

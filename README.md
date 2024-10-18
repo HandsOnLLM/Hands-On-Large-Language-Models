@@ -13,14 +13,14 @@ Through the visually educational nature of this book and with **almost 300 custo
 
 <br>
 
-The digital version of the book is available on:
+The book is available on:
 
 * [Amazon](https://www.amazon.com/Hands-Large-Language-Models-Understanding/dp/1098150961)
+* [Shroff Publishers (India)](https://www.shroffpublishers.com/books/computer-science/large-language-models/9789355425522/)
 * [O'Reilly](https://www.oreilly.com/library/view/hands-on-large-language/9781098150952/)
 * [Kindle](https://www.amazon.com/Hands-Large-Language-Models-Alammar-ebook/dp/B0DGZ46G88/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
 * [Barnes and Noble](https://www.barnesandnoble.com/w/hands-on-large-language-models-jay-alammar/1145185960)
-
-Note that the book is sent to the printer and will be released in print format in the coming weeks!
+* [Goodreads](https://www.goodreads.com/book/show/210408850-hands-on-large-language-models)
 
 ## Table of Contents
 

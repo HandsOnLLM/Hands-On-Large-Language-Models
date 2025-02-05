@@ -89,7 +89,7 @@ We continue to create more guides that compliment the book and go more in-depth 
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](images/mamba.png)  |  ![](images/quant.png) |  ![](images/diffusion.png)
 **[A Visual Guide to Mixture of Experts](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts)**  | **[A Visual Guide to Reasoning LLMs](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-reasoning-llms)**  |  **[The Illustrated DeepSeek-R1](https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1)**
-![](images/moe.png)  |  ![](images/bonus_reasoning2.png) |  ![](images/bonus_deepseek2.png)
+![](images/moe.png)  |  ![](images/reasoning.png) |  ![](images/deepseek.png)
 
 For more information on these visual/illustrated guides, check out the [bonus](bonus/) folder.
 

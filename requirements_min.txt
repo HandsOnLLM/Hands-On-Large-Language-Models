@@ -16,7 +16,7 @@ scikit-learn >= 1.5.0
 sentencepiece >= 0.2.0
 nltk >= 3.8.1
 evaluate >= 0.4.2
-scipy == 1.12.0  # TEMPORARY DEP BECAUSE OF https://github.com/piskvorky/gensim/issues/3525
+scipy >= 1.15.0
 
 # Cloud providers
 openai >= 1.34.0

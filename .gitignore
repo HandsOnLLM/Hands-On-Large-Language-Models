@@ -1,0 +1,28 @@
+# LLMs
+*.gguf
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.lock
+
+# Artifacts
+.idea
+.idea/
+.vscode
+.DS_Store

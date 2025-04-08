@@ -1,6 +1,6 @@
 ﻿<!-- TODO: Finish up specific instructions with https://medium.com/@mohammdowais/how-to-record-terminal-in-a-windows-computer-c140feb9a6e3 -->
 
-# Local Environment with Conda
+# 本地环境（使用 Conda 创建）
 
 我们推荐在本地运行代码时, 使用通过Conda管理的受控环境。 
 

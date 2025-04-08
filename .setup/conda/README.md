@@ -2,13 +2,13 @@
 
 # Local Environment with Conda
 
-我们推荐在本地运行代码时使用通过Conda管理的受控环境。 
+我们推荐在本地运行代码时, 使用通过Conda管理的受控环境。 
 
 ## 1. 安装Miniconda
 
 要设置一个包含Python和所有必要依赖项的Conda环境，我们建议使用一个最小化版本的conda，也就是miniconda [miniconda](https://docs.anaconda.com/free/miniconda/miniconda-other-installer-links/). 
 
-根据您的操作系统，我们选择已预装 Python 3.10 的环境。以下以 Windows 为例说明安装流程：
+根据您的操作系统，我们先预装 Python 3.10 的环境。以下以 Windows 为例说明安装流程：
 
 ![](../images/miniconda_windows.png)
 
@@ -56,11 +56,11 @@ pip install -r requirements.txt
 > `requirements.txt` 文件通过固定依赖版本确保环境可重复复现。不过，这样做可能会导致您错过许多包的最新功能特性。您可以改用 `requirements_min.txt`，它会安装所有包的最新版本。需要注意的是，这样做可能会导致某些示例无法正常工作，因为这些包的 API 可能会随时间推移而发生变化。
 
 > [!WARNING]
-> If you get the following error `error: Microsoft Visual C++ 14.0 or greater is required.` then you will need to install C++. 
-> Follow the instructions [here](common_issues.md) for an installation guide before you can install your environment.
+> 如果您遇到以下错误 `error: Microsoft Visual C++ 14.0 or greater is required.`，则需要安装 C++ 。 
+> 在安装环境之前，请先按照此处提供的指南进行操作。[here](common_issues.md) .
 
-### [OPTIONAL] Installing dependencies with conda
-If you run into issues with the `requirements.txt` file, you can also install a base set of dependencies that are installed throughout the book:
+### [OPTIONAL] 使用 Conda 安装 dependencies
+如果在使用 requirements.txt 文件时遇到问题，您也可以安装本书中各章节通用的基础依赖项：
 
 ```bash
 pip install -r requirements_base.txt
@@ -81,7 +81,7 @@ conda install bertopic=0.16.0 python-annoy=1.17.2
 
 现在您已安装所有必要依赖项，可能需要更新某个特定依赖项，例如 PyTorch。由于您的操作系统环境不同，PyTorch 可能默认安装了 CPU 版本，而大部分示例需要使用 GPU 进行加速 。
 
-If you go to the official [PyTorch website](https://pytorch.org/), then you'll find on the frontpage the current guideline for installing the package:
+如果您访问官方的PyTorch网站 ， [PyTorch website](https://pytorch.org/), 首页上会提供当前的软件包安装指南：
 
 ![](../images/miniconda_windows.png)
 
@@ -94,9 +94,9 @@ pip3 install --upgrade torch torchvision torchaudio --index-url https://download
 
 请注意，我们在此添加了 `--upgrade` 标签，以确保用 GPU 版本覆盖原有的 CPU 版本 PyTorch。
 
-## 4. Starting Jupyter Lab
+## 4. 启动 Jupyter Lab
 
-After having installed all necessary packages, you can then use Jupyter Lab (or any other notebook backend) to run all of the notebooks associated with each chapter. You can start Jupyter Lab directly from the terminal:
+安装所有必要软件包后，您可以使用 Jupyter Lab（或其他笔记本工具）运行与各章节关联的所有笔记本文件。您可以通过终端直接启动 Jupyter Lab：
 
 ```bash
 jupyter lab

@@ -7,7 +7,7 @@
 
 ## 快速开始
 
-如果您本地已有 Python (3.10.*) 环境并安装了 Microsoft Visual C++ 14.0 或更高版本，则可以在此存储库的根目录下通过以下方式安装完整开发环境：
+如果您本地已有 Python (3.10.*) 环境并安装了 Microsoft Visual C++ 14.0 或更高版本，则可以在此存储库的根目录下,通过以下方式安装完整开发环境：
 
 ```bash
 pip install -r requirements.txt

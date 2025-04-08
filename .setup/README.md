@@ -5,9 +5,9 @@
 * **本地**: Using a [Conda](../.setup/conda) environment
 * **云端**: Using [Google Colab Notebooks](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models/tree/main?tab=readme-ov-file#table-of-contents)
 
-## Quick start
+## 快速开始
 
-If you already have a local Python (3.10.*) environment and [Microsoft Visual C++ 14.0](https://visualstudio.microsoft.com/visual-cpp-build-tools/) or greater installed, you can install the complete environment as follows at the root of this repository:
+如果您本地已有 Python (3.10.*) 环境并安装了 Microsoft Visual C++ 14.0 或更高版本，即可在此存储库的根目录下通过以下方式安装完整开发环境：
 
 ```bash
 pip install -r requirements.txt

@@ -1,9 +1,9 @@
 ﻿# 配置说明
 
-Here you will find several methods of running the code found in the book. There are two preferred methods, one for local usage and one for cloud-based:
+这里提供了若干运行本书中代码的方法。其中，有两种推荐方法，一种用于本地环境，另一种用于基于云的环境：
 
-* **Local**: Using a [Conda](../.setup/conda) environment
-* **Cloud**: Using [Google Colab Notebooks](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models/tree/main?tab=readme-ov-file#table-of-contents)
+* **本地**: Using a [Conda](../.setup/conda) environment
+* **云端**: Using [Google Colab Notebooks](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models/tree/main?tab=readme-ov-file#table-of-contents)
 
 ## Quick start
 

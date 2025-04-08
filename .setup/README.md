@@ -23,6 +23,6 @@ conda env create -f environment.yml
 ```
 
 > [!TIP]
-> After preparing your environment, it is recommended to install the GPU version of PyTorch following the instructions [here](https://pytorch.org/) as most examples will require a GPU.
+>在完成环境准备后，建议根据此处的说明安装PyTorch，大多数示例都需要依赖GPU运行 [here](https://pytorch.org/) .
 
-For a complete tutorial on setting up your environment, visit the [conda example](../.setup/conda).
+如需完整的环境配置教程，请访问conda示例 。

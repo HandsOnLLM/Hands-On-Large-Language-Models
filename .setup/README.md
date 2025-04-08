@@ -14,8 +14,7 @@ pip install -r requirements.txt
 ```
 
 > [!WARNING]
-> If you get the following error `error: Microsoft Visual C++ 14.0 or greater is required.` then you will need to install C++. 
-> Follow the instructions [here](common_issues.md) for an installation guide before you can install your environment.
+如果遇到以下错误提示：error: Microsoft Visual C++ 14.0 or greater is required.，则需要安装C++组件。请先按照此处的安装指南进行操作
 
 If you have conda installed (this **does not** require an additional installation of C++), you can also install the complete environment as follows at the root of this repository:
 

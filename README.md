@@ -25,7 +25,7 @@ The book is available on:
 
 ## Table of Contents
 
-We advise to run all examples through Google Colab for the easiest setup. Google Colab allows you to use a T4 GPU with 16GB of VRAM for free. All examples were mainly built and tested using Google Colab, so it should be the most stable platform. However, any other cloud provider should work. 
+我们建议通过Google Colab运行所有示例，以实现最便捷的配置。Google Colab可让你免费使用配备16GB显存的T4 GPU，且所有示例主要用于Google Colab进行构建和测试，因此它应该是最稳定的平台。不过，其他任何云服务提供商也是可行。
 
 | Chapter  | Notebook  |
 |---|---|
@@ -43,9 +43,8 @@ We advise to run all examples through Google Colab for the easiest setup. Google
 | Chapter 12: Fine-tuning Generation Models  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HandsOnLLM/Hands-On-Large-Language-Models/blob/main/chapter12/Chapter%2012%20-%20Fine-tuning%20Generation%20Models.ipynb)  |
 
 > [!TIP]
-> You can check the [setup](.setup/) folder for a quick-start guide to install all packages locally and you can check the [conda](.setup/conda/) folder for a complete guide on how to setup your environment, including conda and PyTorch installation.
-> Note that the depending on your OS, Python version, and dependencies your results might be slightly differ. However, they
-> should this be similar to the examples in the book. 
+>你可以查看[setup](.setup/) 文件夹中的快速入门指南以本地安装所有软件包，或查看[conda](.setup/conda/)文件夹中的完整指南，了解如何配置环境（包括Conda和PyTorch的安装）。
+注意：由于不同操作系统、Python版本和依赖项的影响，你的结果可能略有差异。不过，它们应该与书中的示例大致相同。
 
 
 ## Reviews

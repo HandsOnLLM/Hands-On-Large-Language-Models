@@ -80,19 +80,17 @@ We advise to run all examples through Google Colab for the easiest setup. Google
 
 ---
 
-## Additional Resources
+## [Bonus content!](bonus/)
 
 We attempted to put as much information into the book without it being overwhelming. However, even with a 400-page book there is still much to discover! 
 
-We continue to create more guides that compliment the book and go more in-depth into new and exciting topics:
+We continue to create more guides that compliment the book and go more in-depth into new and [exciting topics]((bonus/)):
 
 | [A Visual Guide to Mamba](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mamba-and-state)             |  [A Visual Guide to Quantization](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization) | [The Illustrated Stable Diffusion](https://jalammar.github.io/illustrated-stable-diffusion/) |
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](images/mamba.png)  |  ![](images/quant.png) |  ![](images/diffusion.png)
 **[A Visual Guide to Mixture of Experts](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts)**  | **[A Visual Guide to Reasoning LLMs](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-reasoning-llms)**  |  **[The Illustrated DeepSeek-R1](https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1)**
 ![](images/moe.png)  |  ![](images/reasoning.png) |  ![](images/deepseek.png)
-
-For more information on these visual/illustrated guides, check out the [bonus](bonus/) folder.
 
 ## Citation
 

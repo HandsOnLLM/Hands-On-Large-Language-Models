@@ -39,5 +39,5 @@ seqeval >= 1.2.2
 trl >= 0.9.4                
 peft >= 0.11.1               
 accelerate >= 0.31.0       
-bitsandbytes >= 0.43.1       
+bitsandbytes >= 0.42.0       
 mteb >= 1.12.39              

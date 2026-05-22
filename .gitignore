@@ -1,0 +1,25 @@
+.env
+venv/
+.venv/
+__pycache__/
+
+
+# Ignore all GGUF models
+*.gguf
+
+# Ignore all FAISS index files
+*.faiss
+
+# Ignore chapter10 trained model outputs
+chapter10/augmented_embedding_model/
+chapter10/base_embedding_model/
+chapter10/cosineloss_embedding_model/
+chapter10/finetuned_embedding_model/
+chapter10/mnrloss_embedding_model/
+chapter10/results/
+chapter10/tsdae_embedding_model/
+
+# Ignore chapter12 trained model outputs
+chapter12/TinyLlama-1.1B-qlora/
+chapter12/TinyLlama-1.1B-dpo-qlora/
+chapter12/results/

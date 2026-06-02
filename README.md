@@ -80,6 +80,9 @@ We advise to run all examples through Google Colab for the easiest setup. Google
 
 ---
 
+> [!TIP]
+> The book's OpenAI examples (Chapters 4, 5, 7) also work with **OpenAI-compatible providers** like [MiniMax](https://www.minimaxi.com/) — just set a different `base_url` when creating the client. See the [bonus notebook](bonus/Using%20Alternative%20LLM%20Providers.ipynb) for details.
+
 ## [Bonus content!](bonus/)
 
 We attempted to put as much information into the book without it being overwhelming. However, even with a 400-page book there is still much to discover! 

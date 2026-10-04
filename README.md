@@ -10,6 +10,10 @@ Welcome! In this repository you will find the code for all examples throughout t
 
 Through the visually educational nature of this book and with **almost 300 custom made figures**, learn the practical tools and concepts you need to use Large Language Models today!
 
+## Northstar ITSM demo
+
+This repository also includes a standalone ServiceNow-style IT service management demo in [`itsm/`](itsm/). It runs directly in a modern browser and includes incident and request workflows, change approvals, a CMDB, knowledge articles, SLA monitoring, and configurable automation. See [`itsm/README.md`](itsm/README.md) for details.
+
 <a href="https://www.amazon.com/Hands-Large-Language-Models-Understanding/dp/1098150961"><img src="images/book_cover.png" width="50%" ></a>
 
 <br>

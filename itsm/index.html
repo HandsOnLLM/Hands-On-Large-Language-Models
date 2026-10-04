@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f7fb">
+    <meta name="description" content="Northstar ITSM — a connected service operations workspace.">
+    <title>Northstar · Service Operations</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar">
+        <a class="brand" href="#dashboard" aria-label="Northstar home">
+          <span class="brand-mark"><span></span><span></span><span></span><span></span></span>
+          <span class="brand-copy"><strong>northstar</strong><small>SERVICE OPERATIONS</small></span>
+        </a>
+        <div class="workspace-switcher">
+          <span class="workspace-avatar">A</span>
+          <span class="workspace-copy"><strong>Acme Corporation</strong><small>IT Service Desk</small></span>
+          <span class="switcher-chevron">⌄</span>
+        </div>
+        <nav class="side-nav" aria-label="Main navigation">
+          <p class="nav-heading">WORKSPACE</p>
+          <a class="nav-link active" href="#dashboard" data-page="dashboard"><span class="nav-icon" data-icon="grid"></span><span>Overview</span></a>
+          <a class="nav-link" href="#incidents" data-page="incidents"><span class="nav-icon" data-icon="alert"></span><span>Incidents</span><span class="nav-count" id="incident-nav-count">0</span></a>
+          <a class="nav-link" href="#requests" data-page="requests"><span class="nav-icon" data-icon="inbox"></span><span>Service requests</span></a>
+          <a class="nav-link" href="#problems" data-page="problems"><span class="nav-icon" data-icon="layers"></span><span>Problems</span></a>
+          <a class="nav-link" href="#changes" data-page="changes"><span class="nav-icon" data-icon="calendar"></span><span>Changes</span></a>
+          <p class="nav-heading nav-heading-spaced">SERVICE DELIVERY</p>
+          <a class="nav-link" href="#assets" data-page="assets"><span class="nav-icon" data-icon="box"></span><span>CMDB &amp; assets</span></a>
+          <a class="nav-link" href="#knowledge" data-page="knowledge"><span class="nav-icon" data-icon="book"></span><span>Knowledge</span></a>
+          <a class="nav-link" href="#approvals" data-page="approvals"><span class="nav-icon" data-icon="check"></span><span>Approvals</span><span class="nav-count approval-count" id="approval-nav-count">0</span></a>
+          <a class="nav-link" href="#slas" data-page="slas"><span class="nav-icon" data-icon="clock"></span><span>SLA &amp; automation</span></a>
+        </nav>
+        <div class="sidebar-bottom">
+          <div class="sidebar-health"><span class="health-dot"></span><span><strong>All systems operational</strong><small>Updated just now</small></span><span class="health-arrow">↗</span></div>
+          <button class="profile-button" id="profile-button"><span class="profile-avatar">JD</span><span class="profile-copy"><strong>Jordan Davis</strong><small>Service desk manager</small></span><span class="profile-more">···</span></button>
+        </div>
+      </aside>
+      <main class="main-panel">
+        <header class="topbar">
+          <button class="icon-button mobile-menu" id="mobile-menu" aria-label="Open navigation"><span data-icon="menu"></span></button>
+          <div class="breadcrumbs"><span>Workspace</span><span class="crumb-divider">/</span><strong id="breadcrumb-current">Overview</strong></div>
+          <div class="topbar-actions">
+            <label class="global-search"><span data-icon="search"></span><input id="global-search" type="search" placeholder="Search anything..." autocomplete="off"><kbd>⌘ K</kbd></label>
+            <button class="icon-button topbar-icon" id="help-button" aria-label="Help"><span data-icon="help"></span></button>
+            <button class="icon-button topbar-icon notification-button" id="notification-button" aria-label="Notifications"><span data-icon="bell"></span><i></i></button>
+            <span class="topbar-divider"></span>
+            <span class="topbar-avatar">JD</span>
+          </div>
+        </header>
+        <div class="page-content" id="page-content"></div>
+      </main>
+    </div>
+    <div class="toast-region" id="toast-region" aria-live="polite"></div>
+    <div class="modal-backdrop" id="modal-backdrop" hidden>
+      <section class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"></section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

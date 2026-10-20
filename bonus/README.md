@@ -26,3 +26,4 @@ To get a feeling of each piece of additional content, click any of the markdown 
 7. [A Visual Guide to **Reasoning LLMs**](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-reasoning-llms)
 8. [The Illustrated **DeepSeek-R1**](https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1)
 9. [A Visual Guide to **LLM Agents**](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-llm-agents)
+10. [Using **Alternative LLM Providers**](Using%20Alternative%20LLM%20Providers.ipynb) - Use OpenAI-compatible providers (e.g., [MiniMax](https://www.minimaxi.com/)) with the book's code examples

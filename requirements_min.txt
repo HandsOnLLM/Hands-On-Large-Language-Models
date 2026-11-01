@@ -27,7 +27,7 @@ datamapplot >= 0.3.0
 faiss-cpu >= 1.8.0
 bertopic >= 0.16.3       
 annoy >= 1.17.3              
-llama_cpp_python >= 0.2.78 -C cmake.args="-DLLAMA_BLAS=ON"
+llama_cpp_python >= 0.2.78
 numexpr >= 2.10.0
 langchain >= 0.2.5
 langchain-community >= 0.2.5
